@@ -11,7 +11,7 @@ consumer_key = os.environ['aMOom3W82KBXENjxkbnzaDXqS']
 consumer_secret = os.environ['dTTHfNcuQdpEkdShNO7p7kSkHPxejetfcWPafeyRkETNzBzrcl']
 access_token = os.environ['1777037031631208448-E4Xr2XIBNF5RvOK6C52kKfUehmbwdg']
 access_token_secret = os.environ['Z8CabvPLbl28kDhOEOic0IavwREzOXp3gQMgDoiTOt72qCRET']
-anthropic.setup(api_key=os.environ['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'])
+anthropic.setup(api_key = os.environ['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'])
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
